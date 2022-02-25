@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
         
       # Runs a single command using the runners shell
-      - name: Run a kokot script
+      - name: Run Thrive xcodebuild test script
         run: xcodebuild -showsdks
 
       # Runs a set of commands using the runners shell
