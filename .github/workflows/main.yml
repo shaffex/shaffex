@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+          - name: Xcodebuild Action
+  uses: sersoft-gmbh/xcodebuild-action@v1.8.0
